@@ -1,0 +1,19 @@
+# Microsoft Developer Studio Project File - Database Project
+Begin DataProject = "ListProducts"
+   MSDTVersion = "70"
+   DefDBRef = "XIANGTAN.NorthWind.dbo"
+   SccProjectName = "SAK"
+   SccLocalPath = "SAK"
+   SccAuxPath = "SAK"
+   SccProvider = "SAK"
+   Begin Folder = "Change Scripts"
+   End
+   Begin DBRefFolder = "Database References"
+      Begin DBRefNode = "XIANGTAN.NorthWind.dbo"
+         ConnectStr = "Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=NorthWind;Data Source=XIANGTAN;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=XIANGTAN;Use Encryption for Data=False;Tag with column collation when possible=False"
+         Colorizer = 5
+      End
+   End
+   Begin Folder = "Queries"
+   End
+End

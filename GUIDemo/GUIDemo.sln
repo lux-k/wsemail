@@ -1,0 +1,41 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUIDemo", "GUIDemo\GUIDemo.csproj", "{7F6D6943-33B1-41A7-97E2-0B3C39D3251B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventQueue", "EventQueue\EventQueue.csproj", "{C5B27C8A-934A-46C4-AAE5-CAC1FE88AE96}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 3
+		SccProjectUniqueName0 = EventQueue\\EventQueue.csproj
+		SccProjectName0 = \u0022$/WSEmail/EventQueue\u0022,\u0020OLAAAAAA
+		SccLocalPath0 = EventQueue
+		CanCheckoutShared = false
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {7136367F-F9D4-47BE-B7E0-8ADC5780172F}
+		SccProjectUniqueName2 = GUIDemo\\GUIDemo.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = GUIDemo\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{7F6D6943-33B1-41A7-97E2-0B3C39D3251B}.Debug.ActiveCfg = Debug|.NET
+		{7F6D6943-33B1-41A7-97E2-0B3C39D3251B}.Debug.Build.0 = Debug|.NET
+		{7F6D6943-33B1-41A7-97E2-0B3C39D3251B}.Release.ActiveCfg = Release|.NET
+		{7F6D6943-33B1-41A7-97E2-0B3C39D3251B}.Release.Build.0 = Release|.NET
+		{C5B27C8A-934A-46C4-AAE5-CAC1FE88AE96}.Debug.ActiveCfg = Debug|.NET
+		{C5B27C8A-934A-46C4-AAE5-CAC1FE88AE96}.Debug.Build.0 = Debug|.NET
+		{C5B27C8A-934A-46C4-AAE5-CAC1FE88AE96}.Release.ActiveCfg = Release|.NET
+		{C5B27C8A-934A-46C4-AAE5-CAC1FE88AE96}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

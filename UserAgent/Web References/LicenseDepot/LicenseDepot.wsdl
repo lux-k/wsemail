@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://localhost/LicenseDepot/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://localhost/LicenseDepot/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://localhost/LicenseDepot/">
+      <s:element name="Deposit">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="lic">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DepositResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="DepositResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </types>
+  <message name="DepositSoapIn">
+    <part name="parameters" element="s0:Deposit" />
+  </message>
+  <message name="DepositSoapOut">
+    <part name="parameters" element="s0:DepositResponse" />
+  </message>
+  <portType name="LicenseDepotSoap">
+    <operation name="Deposit">
+      <documentation>Accepts licenses and makes them available for later retrival</documentation>
+      <input message="s0:DepositSoapIn" />
+      <output message="s0:DepositSoapOut" />
+    </operation>
+  </portType>
+  <binding name="LicenseDepotSoap" type="s0:LicenseDepotSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="Deposit">
+      <soap:operation soapAction="http://localhost/LicenseDepot/Deposit" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="LicenseDepot">
+    <documentation>Web service that acts as a depot for licenses between a User Agent and a Merchant</documentation>
+    <port name="LicenseDepotSoap" binding="s0:LicenseDepotSoap">
+      <soap:address location="http://localhost/LicenseDepot/LicenseDepot.asmx" />
+    </port>
+  </service>
+</definitions>

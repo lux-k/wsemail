@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://securitylab.cis.upenn.edu/WSEmail" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://securitylab.cis.upenn.edu/WSEmail" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://securitylab.cis.upenn.edu/WSEmail">
+      <s:element name="ExecuteExtensionHandler">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ext" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="args">
+              <s:complexType>
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ExecuteExtensionHandlerResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ExecuteExtensionHandlerResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WSEmailFetchHeaders">
+        <s:complexType />
+      </s:element>
+      <s:element name="WSEmailFetchHeadersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSEmailFetchHeadersResult" type="s0:ArrayOfWSEmailHeader" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfWSEmailHeader">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="WSEmailHeader" nillable="true" type="s0:WSEmailHeader" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="WSEmailHeader">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="MessageID" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="Flags" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Sender" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Subject" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Timestamp" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="WSEmailSend">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="theMessage" type="s0:WSEmailMessage" />
+            <s:element minOccurs="0" maxOccurs="1" name="theSig">
+              <s:complexType>
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WSEmailMessage">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Body" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Subject" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Recipients" type="s0:ArrayOfAnyType" />
+          <s:element minOccurs="0" maxOccurs="1" name="Sender" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Timestamp" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="XmlAttachments" type="s0:ArrayOfXmlNode" />
+          <s:element minOccurs="1" maxOccurs="1" name="MessageFlags" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfAnyType">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="anyType" nillable="true" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfXmlNode">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="XmlNode" nillable="true">
+            <s:complexType mixed="true">
+              <s:sequence>
+                <s:any />
+              </s:sequence>
+            </s:complexType>
+          </s:element>
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="WSMessageAttach">
+        <s:complexContent mixed="false">
+          <s:extension base="s0:WSEmailMessage" />
+        </s:complexContent>
+      </s:complexType>
+      <s:complexType name="WSEmailStatus">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ResponseCode" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="Message" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="WSEmailSendResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSEmailSendResult" type="s0:WSEmailStatus" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WSEmailDelete">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="messagesToDelete" type="s0:ArrayOfInt" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfInt">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="int" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="WSEmailDeleteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSEmailDeleteResult" type="s0:WSEmailStatus" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WSEmailRetrieve">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="messageToGet" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="WSEmailPackage">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="MessageID" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="theMessage" type="s0:WSEmailMessage" />
+          <s:element minOccurs="0" maxOccurs="1" name="sig">
+            <s:complexType>
+              <s:sequence>
+                <s:any />
+              </s:sequence>
+            </s:complexType>
+          </s:element>
+        </s:sequence>
+      </s:complexType>
+      <s:element name="WSEmailRetrieveResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WSEmailRetrieveResult" type="s0:WSEmailPackage" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </types>
+  <message name="ExecuteExtensionHandlerSoapIn">
+    <part name="parameters" element="s0:ExecuteExtensionHandler" />
+  </message>
+  <message name="ExecuteExtensionHandlerSoapOut">
+    <part name="parameters" element="s0:ExecuteExtensionHandlerResponse" />
+  </message>
+  <message name="WSEmailFetchHeadersSoapIn">
+    <part name="parameters" element="s0:WSEmailFetchHeaders" />
+  </message>
+  <message name="WSEmailFetchHeadersSoapOut">
+    <part name="parameters" element="s0:WSEmailFetchHeadersResponse" />
+  </message>
+  <message name="WSEmailSendSoapIn">
+    <part name="parameters" element="s0:WSEmailSend" />
+  </message>
+  <message name="WSEmailSendSoapOut">
+    <part name="parameters" element="s0:WSEmailSendResponse" />
+  </message>
+  <message name="WSEmailDeleteSoapIn">
+    <part name="parameters" element="s0:WSEmailDelete" />
+  </message>
+  <message name="WSEmailDeleteSoapOut">
+    <part name="parameters" element="s0:WSEmailDeleteResponse" />
+  </message>
+  <message name="WSEmailRetrieveSoapIn">
+    <part name="parameters" element="s0:WSEmailRetrieve" />
+  </message>
+  <message name="WSEmailRetrieveSoapOut">
+    <part name="parameters" element="s0:WSEmailRetrieveResponse" />
+  </message>
+  <portType name="MailServerSoap">
+    <operation name="ExecuteExtensionHandler">
+      <input message="s0:ExecuteExtensionHandlerSoapIn" />
+      <output message="s0:ExecuteExtensionHandlerSoapOut" />
+    </operation>
+    <operation name="WSEmailFetchHeaders">
+      <input message="s0:WSEmailFetchHeadersSoapIn" />
+      <output message="s0:WSEmailFetchHeadersSoapOut" />
+    </operation>
+    <operation name="WSEmailSend">
+      <input message="s0:WSEmailSendSoapIn" />
+      <output message="s0:WSEmailSendSoapOut" />
+    </operation>
+    <operation name="WSEmailDelete">
+      <input message="s0:WSEmailDeleteSoapIn" />
+      <output message="s0:WSEmailDeleteSoapOut" />
+    </operation>
+    <operation name="WSEmailRetrieve">
+      <input message="s0:WSEmailRetrieveSoapIn" />
+      <output message="s0:WSEmailRetrieveSoapOut" />
+    </operation>
+  </portType>
+  <binding name="MailServerSoap" type="s0:MailServerSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="ExecuteExtensionHandler">
+      <soap:operation soapAction="http://securitylab.cis.upenn.edu/WSEmail/ExecuteExtensionHandler" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="WSEmailFetchHeaders">
+      <soap:operation soapAction="http://securitylab.cis.upenn.edu/WSEmail/WSEmailFetchHeaders" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="WSEmailSend">
+      <soap:operation soapAction="http://securitylab.cis.upenn.edu/WSEmail/WSEmailSend" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="WSEmailDelete">
+      <soap:operation soapAction="http://securitylab.cis.upenn.edu/WSEmail/WSEmailDelete" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="WSEmailRetrieve">
+      <soap:operation soapAction="http://securitylab.cis.upenn.edu/WSEmail/WSEmailRetrieve" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="MailServer">
+    <port name="MailServerSoap" binding="s0:MailServerSoap">
+      <soap:address location="http://localhost/WSEMailServer_4/MailServer.asmx" />
+    </port>
+  </service>
+</definitions>

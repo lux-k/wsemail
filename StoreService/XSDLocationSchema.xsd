@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema id="XSDLocationSchema" targetNamespace="http://pdrm.org/XSDLocationSchema.xsd" elementFormDefault="qualified"
+	xmlns="http://pdrm.org/XSDLocationSchema.xsd" xmlns:mstns="http://pdrm.org/XSDLocationSchema.xsd"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:complexType name="Coord">
+		<xs:sequence>
+			<xs:element name="Deg" type="xs:short" maxOccurs="1" minOccurs="1" />
+			<xs:element name="Min" type="xs:short" maxOccurs="1" minOccurs="1" />
+			<xs:element name="Sec" type="xs:short" maxOccurs="1" minOccurs="1" />
+			<xs:choice maxOccurs="1" minOccurs="1">
+				<xs:element name="North" type="xs:string" />
+				<xs:element name="South" type="xs:string" />
+				<xs:element name="East" type="xs:string" />
+				<xs:element name="West" type="xs:string" />
+			</xs:choice>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Location">
+		<xs:sequence>
+			<xs:element name="Lat" type="Coord" maxOccurs="1" minOccurs="1" />
+			<xs:element name="Long" type="Coord" maxOccurs="1" minOccurs="1" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Service">
+		<xs:sequence>
+			<xs:element name="Name" type="xs:string" />
+			<xs:element name="Address" type="xs:string" />
+			<xs:element name="City" type="xs:string" />
+			<xs:element name="State" type="xs:string" />
+			<xs:element name="Comments" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ServiceList">
+		<xs:sequence>
+			<xs:sequence minOccurs="1" maxOccurs="100">
+				<xs:element name="Item" type="Service" />
+			</xs:sequence>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

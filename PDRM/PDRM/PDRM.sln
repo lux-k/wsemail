@@ -1,0 +1,225 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreService", "http://localhost/StoreService/StoreService.csproj", "{E4C88A96-6B7B-41C1-9319-2982D68AEF91}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{20D4826A-C6FA-45DB-90F4-C717570B9F32}") = "AdapterInfo", "..\AdapterInfo\AdapterInfo.csdproj", "{798F4875-07EA-4F3B-A8AC-16E43710014C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GIS", "http://localhost/GIS/GIS.csproj", "{3B77E835-606B-429C-99DF-4A5D105C876B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GLS", "http://localhost/GLS/GLS.csproj", "{9F208B25-5392-4D2B-A59D-35D899D93417}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merchant", "Merchant\Merchant.csproj", "{8E8EF991-42FA-4773-96FA-18934A080331}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserAgent", "http://localhost/UserAgent/UserAgent.csproj", "{DFA05654-ED09-422E-AEAB-1EBD78DA99DD}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LicenseDepot", "http://localhost/LicenseDepot/LicenseDepot.csproj", "{2EE436FB-C749-4E92-8320-251BA651CD3A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3PtoXMLTest", "P3PtoXMLTest\P3PtoXMLTest.csproj", "{3243CDA4-EA78-4C50-A03A-7BB9FBFD2A33}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{20D4826A-C6FA-45DB-90F4-C717570B9F32}") = "AdViewer", "AdViewer\AdViewer.csdproj", "{1CDBB0B2-C896-42E3-AB15-C2BDFA4A54EF}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{20D4826A-C6FA-45DB-90F4-C717570B9F32}") = "Notification", "..\Notification\Notification.CSDPROJ", "{77073135-C9A9-48C8-8791-D9E18E17023A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P3P", "P3P\P3P.csproj", "{5E164819-FDE3-4D41-8428-601E564225B7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonTypes", "CommonTypes\CommonTypes.csproj", "{AC6FA613-7CA1-40A1-8744-35BE9697D372}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 13
+		SccProjectName0 = \u0022$/PDRM\u0022,\u0020TPAAAAAA
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection0 = PDRM\\
+		SolutionUniqueID = {1A70E5A6-E835-4AB3-8107-FB80E3E662A5}
+		SccProjectUniqueName1 = ..\\AdapterInfo\\AdapterInfo.csdproj
+		SccLocalPath1 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = AdapterInfo\\
+		SccProjectUniqueName2 = ..\\Notification\\Notification.CSDPROJ
+		SccLocalPath2 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = Notification\\
+		SccProjectUniqueName3 = AdViewer\\AdViewer.csdproj
+		SccLocalPath3 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection3 = PDRM\\AdViewer\\
+		SccProjectUniqueName4 = Merchant\\Merchant.csproj
+		SccLocalPath4 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection4 = PDRM\\Merchant\\
+		SccProjectUniqueName5 = P3PtoXMLTest\\P3PtoXMLTest.csproj
+		SccLocalPath5 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection5 = PDRM\\P3PtoXMLTest\\
+		SccProjectUniqueName6 = http://localhost/GIS/GIS.csproj
+		SccProjectName6 = \u0022$/GIS\u0022,\u0020FQAAAAAA
+		SccLocalPath6 = ..\\..\\..\\..\\..\\inetpub\\wwwroot\\GIS
+		CanCheckoutShared = false
+		SccProjectEnlistmentChoice6 = 2
+		SccProjectUniqueName7 = http://localhost/GLS/GLS.csproj
+		SccProjectName7 = \u0022$/GLS\u0022,\u0020HQAAAAAA
+		SccLocalPath7 = ..\\..\\..\\..\\..\\inetpub\\wwwroot\\GLS
+		CanCheckoutShared = false
+		SccProjectEnlistmentChoice7 = 2
+		SccProjectUniqueName8 = http://localhost/LicenseDepot/LicenseDepot.csproj
+		SccProjectName8 = \u0022$/LicenseDepot\u0022,\u0020JQAAAAAA
+		SccLocalPath8 = ..\\..\\..\\..\\..\\inetpub\\wwwroot\\LicenseDepot
+		CanCheckoutShared = false
+		SccProjectEnlistmentChoice8 = 2
+		SccProjectUniqueName9 = http://localhost/StoreService/StoreService.csproj
+		SccProjectName9 = \u0022$/StoreService\u0022,\u0020LQAAAAAA
+		SccLocalPath9 = ..\\..\\..\\..\\..\\inetpub\\wwwroot\\StoreService
+		CanCheckoutShared = false
+		SccProjectEnlistmentChoice9 = 2
+		SccProjectUniqueName10 = http://localhost/UserAgent/UserAgent.csproj
+		SccProjectName10 = \u0022$/UserAgent\u0022,\u0020NQAAAAAA
+		SccLocalPath10 = ..\\..\\..\\..\\..\\inetpub\\wwwroot\\UserAgent
+		CanCheckoutShared = false
+		SccProjectEnlistmentChoice10 = 2
+		SccProjectUniqueName11 = P3P\\P3P.csproj
+		SccLocalPath11 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection11 = PDRM\\P3P\\
+		SccProjectUniqueName12 = CommonTypes\\CommonTypes.csproj
+		SccLocalPath12 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection12 = PDRM\\CommonTypes\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		NDoc = NDoc
+		Release = Release
+		Release MinDependency = Release MinDependency
+		Release MinSize = Release MinSize
+		Unicode Debug = Unicode Debug
+		Unicode Release MinDependency = Unicode Release MinDependency
+		Unicode Release MinSize = Unicode Release MinSize
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E4C88A96-6B7B-41C1-9319-2982D68AEF91}.Debug.ActiveCfg = Debug|.NET
+		{E4C88A96-6B7B-41C1-9319-2982D68AEF91}.NDoc.ActiveCfg = Release|.NET
+		{E4C88A96-6B7B-41C1-9319-2982D68AEF91}.Release.ActiveCfg = Release|.NET
+		{E4C88A96-6B7B-41C1-9319-2982D68AEF91}.Release MinDependency.ActiveCfg = Release|.NET
+		{E4C88A96-6B7B-41C1-9319-2982D68AEF91}.Release MinSize.ActiveCfg = Release|.NET
+		{E4C88A96-6B7B-41C1-9319-2982D68AEF91}.Unicode Debug.ActiveCfg = Debug|.NET
+		{E4C88A96-6B7B-41C1-9319-2982D68AEF91}.Unicode Release MinDependency.ActiveCfg = Release|.NET
+		{E4C88A96-6B7B-41C1-9319-2982D68AEF91}.Unicode Release MinSize.ActiveCfg = Release|.NET
+		{798F4875-07EA-4F3B-A8AC-16E43710014C}.Debug.ActiveCfg = Debug|Pocket PC
+		{798F4875-07EA-4F3B-A8AC-16E43710014C}.NDoc.ActiveCfg = Release|Pocket PC
+		{798F4875-07EA-4F3B-A8AC-16E43710014C}.Release.ActiveCfg = Release|Pocket PC
+		{798F4875-07EA-4F3B-A8AC-16E43710014C}.Release MinDependency.ActiveCfg = Release|Pocket PC
+		{798F4875-07EA-4F3B-A8AC-16E43710014C}.Release MinSize.ActiveCfg = Release|Pocket PC
+		{798F4875-07EA-4F3B-A8AC-16E43710014C}.Unicode Debug.ActiveCfg = Debug|Pocket PC
+		{798F4875-07EA-4F3B-A8AC-16E43710014C}.Unicode Release MinDependency.ActiveCfg = Release|Pocket PC
+		{798F4875-07EA-4F3B-A8AC-16E43710014C}.Unicode Release MinSize.ActiveCfg = Release|Pocket PC
+		{3B77E835-606B-429C-99DF-4A5D105C876B}.Debug.ActiveCfg = Debug|.NET
+		{3B77E835-606B-429C-99DF-4A5D105C876B}.NDoc.ActiveCfg = Release|.NET
+		{3B77E835-606B-429C-99DF-4A5D105C876B}.Release.ActiveCfg = Release|.NET
+		{3B77E835-606B-429C-99DF-4A5D105C876B}.Release MinDependency.ActiveCfg = Release|.NET
+		{3B77E835-606B-429C-99DF-4A5D105C876B}.Release MinSize.ActiveCfg = Release|.NET
+		{3B77E835-606B-429C-99DF-4A5D105C876B}.Unicode Debug.ActiveCfg = Debug|.NET
+		{3B77E835-606B-429C-99DF-4A5D105C876B}.Unicode Release MinDependency.ActiveCfg = Release|.NET
+		{3B77E835-606B-429C-99DF-4A5D105C876B}.Unicode Release MinSize.ActiveCfg = Release|.NET
+		{9F208B25-5392-4D2B-A59D-35D899D93417}.Debug.ActiveCfg = Debug|.NET
+		{9F208B25-5392-4D2B-A59D-35D899D93417}.NDoc.ActiveCfg = Release|.NET
+		{9F208B25-5392-4D2B-A59D-35D899D93417}.Release.ActiveCfg = Release|.NET
+		{9F208B25-5392-4D2B-A59D-35D899D93417}.Release MinDependency.ActiveCfg = Release|.NET
+		{9F208B25-5392-4D2B-A59D-35D899D93417}.Release MinSize.ActiveCfg = Release|.NET
+		{9F208B25-5392-4D2B-A59D-35D899D93417}.Unicode Debug.ActiveCfg = Debug|.NET
+		{9F208B25-5392-4D2B-A59D-35D899D93417}.Unicode Release MinDependency.ActiveCfg = Release|.NET
+		{9F208B25-5392-4D2B-A59D-35D899D93417}.Unicode Release MinSize.ActiveCfg = Release|.NET
+		{8E8EF991-42FA-4773-96FA-18934A080331}.Debug.ActiveCfg = Debug|.NET
+		{8E8EF991-42FA-4773-96FA-18934A080331}.NDoc.ActiveCfg = Release|.NET
+		{8E8EF991-42FA-4773-96FA-18934A080331}.Release.ActiveCfg = Release|.NET
+		{8E8EF991-42FA-4773-96FA-18934A080331}.Release MinDependency.ActiveCfg = Release|.NET
+		{8E8EF991-42FA-4773-96FA-18934A080331}.Release MinSize.ActiveCfg = Release|.NET
+		{8E8EF991-42FA-4773-96FA-18934A080331}.Unicode Debug.ActiveCfg = Debug|.NET
+		{8E8EF991-42FA-4773-96FA-18934A080331}.Unicode Release MinDependency.ActiveCfg = Release|.NET
+		{8E8EF991-42FA-4773-96FA-18934A080331}.Unicode Release MinSize.ActiveCfg = Release|.NET
+		{DFA05654-ED09-422E-AEAB-1EBD78DA99DD}.Debug.ActiveCfg = Debug|.NET
+		{DFA05654-ED09-422E-AEAB-1EBD78DA99DD}.NDoc.ActiveCfg = Release|.NET
+		{DFA05654-ED09-422E-AEAB-1EBD78DA99DD}.Release.ActiveCfg = Release|.NET
+		{DFA05654-ED09-422E-AEAB-1EBD78DA99DD}.Release MinDependency.ActiveCfg = Release|.NET
+		{DFA05654-ED09-422E-AEAB-1EBD78DA99DD}.Release MinSize.ActiveCfg = Release|.NET
+		{DFA05654-ED09-422E-AEAB-1EBD78DA99DD}.Unicode Debug.ActiveCfg = Debug|.NET
+		{DFA05654-ED09-422E-AEAB-1EBD78DA99DD}.Unicode Release MinDependency.ActiveCfg = Release|.NET
+		{DFA05654-ED09-422E-AEAB-1EBD78DA99DD}.Unicode Release MinSize.ActiveCfg = Release|.NET
+		{2EE436FB-C749-4E92-8320-251BA651CD3A}.Debug.ActiveCfg = Debug|.NET
+		{2EE436FB-C749-4E92-8320-251BA651CD3A}.NDoc.ActiveCfg = Release|.NET
+		{2EE436FB-C749-4E92-8320-251BA651CD3A}.Release.ActiveCfg = Release|.NET
+		{2EE436FB-C749-4E92-8320-251BA651CD3A}.Release MinDependency.ActiveCfg = Release|.NET
+		{2EE436FB-C749-4E92-8320-251BA651CD3A}.Release MinSize.ActiveCfg = Release|.NET
+		{2EE436FB-C749-4E92-8320-251BA651CD3A}.Unicode Debug.ActiveCfg = Debug|.NET
+		{2EE436FB-C749-4E92-8320-251BA651CD3A}.Unicode Release MinDependency.ActiveCfg = Release|.NET
+		{2EE436FB-C749-4E92-8320-251BA651CD3A}.Unicode Release MinSize.ActiveCfg = Release|.NET
+		{3243CDA4-EA78-4C50-A03A-7BB9FBFD2A33}.Debug.ActiveCfg = Debug|.NET
+		{3243CDA4-EA78-4C50-A03A-7BB9FBFD2A33}.NDoc.ActiveCfg = Release|.NET
+		{3243CDA4-EA78-4C50-A03A-7BB9FBFD2A33}.Release.ActiveCfg = Release|.NET
+		{3243CDA4-EA78-4C50-A03A-7BB9FBFD2A33}.Release MinDependency.ActiveCfg = Release|.NET
+		{3243CDA4-EA78-4C50-A03A-7BB9FBFD2A33}.Release MinSize.ActiveCfg = Release|.NET
+		{3243CDA4-EA78-4C50-A03A-7BB9FBFD2A33}.Unicode Debug.ActiveCfg = Debug|.NET
+		{3243CDA4-EA78-4C50-A03A-7BB9FBFD2A33}.Unicode Release MinDependency.ActiveCfg = Release|.NET
+		{3243CDA4-EA78-4C50-A03A-7BB9FBFD2A33}.Unicode Release MinSize.ActiveCfg = Release|.NET
+		{1CDBB0B2-C896-42E3-AB15-C2BDFA4A54EF}.Debug.ActiveCfg = Debug|Pocket PC
+		{1CDBB0B2-C896-42E3-AB15-C2BDFA4A54EF}.NDoc.ActiveCfg = Release|Pocket PC
+		{1CDBB0B2-C896-42E3-AB15-C2BDFA4A54EF}.Release.ActiveCfg = Release|Pocket PC
+		{1CDBB0B2-C896-42E3-AB15-C2BDFA4A54EF}.Release MinDependency.ActiveCfg = Release|Pocket PC
+		{1CDBB0B2-C896-42E3-AB15-C2BDFA4A54EF}.Release MinSize.ActiveCfg = Release|Pocket PC
+		{1CDBB0B2-C896-42E3-AB15-C2BDFA4A54EF}.Unicode Debug.ActiveCfg = Debug|Pocket PC
+		{1CDBB0B2-C896-42E3-AB15-C2BDFA4A54EF}.Unicode Release MinDependency.ActiveCfg = Release|Pocket PC
+		{1CDBB0B2-C896-42E3-AB15-C2BDFA4A54EF}.Unicode Release MinSize.ActiveCfg = Release|Pocket PC
+		{77073135-C9A9-48C8-8791-D9E18E17023A}.Debug.ActiveCfg = Debug|Pocket PC
+		{77073135-C9A9-48C8-8791-D9E18E17023A}.NDoc.ActiveCfg = NDoc|Pocket PC
+		{77073135-C9A9-48C8-8791-D9E18E17023A}.Release.ActiveCfg = Release|Pocket PC
+		{77073135-C9A9-48C8-8791-D9E18E17023A}.Release MinDependency.ActiveCfg = Release|Pocket PC
+		{77073135-C9A9-48C8-8791-D9E18E17023A}.Release MinSize.ActiveCfg = Release|Pocket PC
+		{77073135-C9A9-48C8-8791-D9E18E17023A}.Unicode Debug.ActiveCfg = Debug|Pocket PC
+		{77073135-C9A9-48C8-8791-D9E18E17023A}.Unicode Release MinDependency.ActiveCfg = Release|Pocket PC
+		{77073135-C9A9-48C8-8791-D9E18E17023A}.Unicode Release MinSize.ActiveCfg = Release|Pocket PC
+		{5E164819-FDE3-4D41-8428-601E564225B7}.Debug.ActiveCfg = Debug|.NET
+		{5E164819-FDE3-4D41-8428-601E564225B7}.NDoc.ActiveCfg = Release|.NET
+		{5E164819-FDE3-4D41-8428-601E564225B7}.Release.ActiveCfg = Release|.NET
+		{5E164819-FDE3-4D41-8428-601E564225B7}.Release MinDependency.ActiveCfg = Release|.NET
+		{5E164819-FDE3-4D41-8428-601E564225B7}.Release MinSize.ActiveCfg = Release|.NET
+		{5E164819-FDE3-4D41-8428-601E564225B7}.Unicode Debug.ActiveCfg = Debug|.NET
+		{5E164819-FDE3-4D41-8428-601E564225B7}.Unicode Release MinDependency.ActiveCfg = Release|.NET
+		{5E164819-FDE3-4D41-8428-601E564225B7}.Unicode Release MinSize.ActiveCfg = Release|.NET
+		{AC6FA613-7CA1-40A1-8744-35BE9697D372}.Debug.ActiveCfg = Debug|.NET
+		{AC6FA613-7CA1-40A1-8744-35BE9697D372}.NDoc.ActiveCfg = Release|.NET
+		{AC6FA613-7CA1-40A1-8744-35BE9697D372}.Release.ActiveCfg = Release|.NET
+		{AC6FA613-7CA1-40A1-8744-35BE9697D372}.Release MinDependency.ActiveCfg = Release|.NET
+		{AC6FA613-7CA1-40A1-8744-35BE9697D372}.Release MinSize.ActiveCfg = Release|.NET
+		{AC6FA613-7CA1-40A1-8744-35BE9697D372}.Unicode Debug.ActiveCfg = Debug|.NET
+		{AC6FA613-7CA1-40A1-8744-35BE9697D372}.Unicode Release MinDependency.ActiveCfg = Release|.NET
+		{AC6FA613-7CA1-40A1-8744-35BE9697D372}.Unicode Release MinSize.ActiveCfg = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

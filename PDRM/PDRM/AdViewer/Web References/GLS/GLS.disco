@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://158.130.67.0/GLS/GLS.asmx?wsdl" docRef="http://158.130.67.0/GLS/GLS.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://158.130.67.0/GLS/GLS.asmx" xmlns:q1="http://158.130.67.0/GLS/" binding="q1:GLSSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

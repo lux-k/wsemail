@@ -1,0 +1,85 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSClassDescriptor", "..\SignedRouter\WSClassDescriptor\WSClassDescriptor.csproj", "{C70CC7F4-0CA9-469E-852C-F27F05E49462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestObjects", "http://tower/TestObjects/TestObjects.csproj", "{268B6EE3-39F3-4633-A646-731F646D2353}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseObject", "BaseObject\BaseObject.csproj", "{36120912-4AA9-4F2A-ACBB-6AFDB79B4467}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DerivedA", "DerivedA\DerivedA.csproj", "{0C64BE28-D1EA-4ED5-B5C9-3C50C10659A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{24C51839-EBAF-4948-914B-BCEFA97452F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DerivedB", "DerivedB\DerivedB.csproj", "{9A882B00-9DA6-48ED-8969-C9544BA482EC}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 7
+		SccProjectName0 = \u0022$/TypedObjects\u0022,\u0020PJAAAAAA
+		SccLocalPath0 = ..
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection0 = TypedObjects\\
+		SolutionUniqueID = {0D880195-9489-4793-8294-D47885D9FB77}
+		SccProjectUniqueName1 = ..\\SignedRouter\\WSClassDescriptor\\WSClassDescriptor.csproj
+		SccLocalPath1 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = SignedRouter\\WSClassDescriptor\\
+		SccProjectUniqueName2 = BaseObject\\BaseObject.csproj
+		SccLocalPath2 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = TypedObjects\\BaseObject\\
+		SccProjectUniqueName3 = ConsoleApplication1\\ConsoleApplication1.csproj
+		SccLocalPath3 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection3 = TypedObjects\\ConsoleApplication1\\
+		SccProjectUniqueName4 = DerivedA\\DerivedA.csproj
+		SccLocalPath4 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection4 = TypedObjects\\DerivedA\\
+		SccProjectUniqueName5 = DerivedB\\DerivedB.csproj
+		SccLocalPath5 = ..
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection5 = TypedObjects\\DerivedB\\
+		SccProjectUniqueName6 = http://tower/TestObjects/TestObjects.csproj
+		SccProjectName6 = \u0022$/TypedObjects/TestObjects\u0022,\u0020CKAAAAAA
+		SccLocalPath6 = ..\\..\\..\\..\\..\\inetpub\\wwwroot\\TestObjects
+		CanCheckoutShared = false
+		SccProjectEnlistmentChoice6 = 2
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{C70CC7F4-0CA9-469E-852C-F27F05E49462}.Debug.ActiveCfg = Debug|.NET
+		{C70CC7F4-0CA9-469E-852C-F27F05E49462}.Debug.Build.0 = Debug|.NET
+		{C70CC7F4-0CA9-469E-852C-F27F05E49462}.Release.ActiveCfg = Release|.NET
+		{C70CC7F4-0CA9-469E-852C-F27F05E49462}.Release.Build.0 = Release|.NET
+		{268B6EE3-39F3-4633-A646-731F646D2353}.Debug.ActiveCfg = Debug|.NET
+		{268B6EE3-39F3-4633-A646-731F646D2353}.Debug.Build.0 = Debug|.NET
+		{268B6EE3-39F3-4633-A646-731F646D2353}.Release.ActiveCfg = Release|.NET
+		{268B6EE3-39F3-4633-A646-731F646D2353}.Release.Build.0 = Release|.NET
+		{36120912-4AA9-4F2A-ACBB-6AFDB79B4467}.Debug.ActiveCfg = Debug|.NET
+		{36120912-4AA9-4F2A-ACBB-6AFDB79B4467}.Debug.Build.0 = Debug|.NET
+		{36120912-4AA9-4F2A-ACBB-6AFDB79B4467}.Release.ActiveCfg = Release|.NET
+		{36120912-4AA9-4F2A-ACBB-6AFDB79B4467}.Release.Build.0 = Release|.NET
+		{0C64BE28-D1EA-4ED5-B5C9-3C50C10659A9}.Debug.ActiveCfg = Debug|.NET
+		{0C64BE28-D1EA-4ED5-B5C9-3C50C10659A9}.Debug.Build.0 = Debug|.NET
+		{0C64BE28-D1EA-4ED5-B5C9-3C50C10659A9}.Release.ActiveCfg = Release|.NET
+		{0C64BE28-D1EA-4ED5-B5C9-3C50C10659A9}.Release.Build.0 = Release|.NET
+		{24C51839-EBAF-4948-914B-BCEFA97452F1}.Debug.ActiveCfg = Debug|.NET
+		{24C51839-EBAF-4948-914B-BCEFA97452F1}.Debug.Build.0 = Debug|.NET
+		{24C51839-EBAF-4948-914B-BCEFA97452F1}.Release.ActiveCfg = Release|.NET
+		{24C51839-EBAF-4948-914B-BCEFA97452F1}.Release.Build.0 = Release|.NET
+		{9A882B00-9DA6-48ED-8969-C9544BA482EC}.Debug.ActiveCfg = Debug|.NET
+		{9A882B00-9DA6-48ED-8969-C9544BA482EC}.Debug.Build.0 = Debug|.NET
+		{9A882B00-9DA6-48ED-8969-C9544BA482EC}.Release.ActiveCfg = Release|.NET
+		{9A882B00-9DA6-48ED-8969-C9544BA482EC}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

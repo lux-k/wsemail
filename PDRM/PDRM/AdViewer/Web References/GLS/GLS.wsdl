@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://158.130.67.0/GLS/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://158.130.67.0/GLS/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://158.130.67.0/GLS/">
+      <s:element name="GetGIS">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetGISResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetGISResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLoc">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetLocResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetLocResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </types>
+  <message name="GetGISSoapIn">
+    <part name="parameters" element="s0:GetGIS" />
+  </message>
+  <message name="GetGISSoapOut">
+    <part name="parameters" element="s0:GetGISResponse" />
+  </message>
+  <message name="GetLocSoapIn">
+    <part name="parameters" element="s0:GetLoc" />
+  </message>
+  <message name="GetLocSoapOut">
+    <part name="parameters" element="s0:GetLocResponse" />
+  </message>
+  <portType name="GLSSoap">
+    <operation name="GetGIS">
+      <input message="s0:GetGISSoapIn" />
+      <output message="s0:GetGISSoapOut" />
+    </operation>
+    <operation name="GetLoc">
+      <input message="s0:GetLocSoapIn" />
+      <output message="s0:GetLocSoapOut" />
+    </operation>
+  </portType>
+  <binding name="GLSSoap" type="s0:GLSSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="GetGIS">
+      <soap:operation soapAction="http://158.130.67.0/GLS/GetGIS" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="GetLoc">
+      <soap:operation soapAction="http://158.130.67.0/GLS/GetLoc" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="GLS">
+    <documentation>A Locator Service.  Returns GIS and location information to queries.</documentation>
+    <port name="GLSSoap" binding="s0:GLSSoap">
+      <soap:address location="http://158.130.67.0/GLS/GLS.asmx" />
+    </port>
+  </service>
+</definitions>
