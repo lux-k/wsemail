@@ -1,0 +1,360 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{211DA0DC-A11F-44E8-8330-FE8676A1FA2B}"
+        SccProjectName = "SAK"
+        SccLocalPath = "SAK"
+        SccAuxPath = "SAK"
+        SccProvider = "SAK"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "Mailbox.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "WSEmailClientv2"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "WSEmailClientv2"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = "WSEmailClientv2.TheApp"
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.0.3705\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.0.3705\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.0.3705\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "..\..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.0.3705\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.0.3705\System.XML.dll"
+                />
+                <Reference
+                    Name = "WSEMailProxy"
+                    Project = "{07053853-0A6C-4A59-9E78-005FDD4FF186}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "PennLibraries"
+                    Project = "{B14642AB-3992-49D4-BCF8-247A44E34D84}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "FederatedBinaryToken"
+                    Project = "{7B9D02D1-7603-4FF1-B0AF-985F6AE0ABC9}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "..\..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.0.3705\System.Web.Services.dll"
+                />
+                <Reference
+                    Name = "DynamicForms"
+                    Project = "{A225D5AC-5531-4EB9-ACF5-EC1790D3E75F}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "WSInstantMessagingLibraries"
+                    Project = "{4A7EE2DA-B695-45E0-A4B8-80F91484C1E5}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "System.Runtime.Remoting"
+                    AssemblyName = "System.Runtime.Remoting"
+                    HintPath = "..\..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.0.3705\System.Runtime.Remoting.dll"
+                />
+                <Reference
+                    Name = "DNSResolver"
+                    Project = "{06D192B2-7BBB-482B-A099-E3977B162380}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "DistributedAttachment"
+                    Project = "{ECBDD0DE-345F-44E4-A212-8896BB651259}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "WSEmailClientConfig"
+                    Project = "{417EC8F3-16B1-4663-A2A9-D42451D6B8D6}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "XmlAddressBook"
+                    Project = "{A436F973-E759-4311-B730-BB402E71FABB}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "Microsoft.Web.Services2"
+                    AssemblyName = "Microsoft.Web.Services2"
+                    HintPath = "..\..\..\..\..\..\Program Files\Microsoft WSE\v2.0\Microsoft.Web.Services2.dll"
+                    AssemblyFolderKey = "hklm\microsoft wse 2.0"
+                />
+                <Reference
+                    Name = "Microsoft.Web.Services"
+                    AssemblyName = "Microsoft.Web.Services"
+                    HintPath = "..\..\..\..\..\..\Program Files\Microsoft WSE\v1.0.2312\Microsoft.Web.Services.dll"
+                    AssemblyFolderKey = "hklm\microsoft wse 1.0"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AddressBookControl.cs"
+                    SubType = "UserControl"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "AddressBookControl.resx"
+                    DependentUpon = "AddressBookControl.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "app.config"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "App.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Form1.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Form1.resx"
+                    DependentUpon = "Form1.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "FrmAbout.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FrmAbout.resx"
+                    DependentUpon = "FrmAbout.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "FrmAddressBook.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FrmAddressBook.resx"
+                    DependentUpon = "FrmAddressBook.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "FrmAddressView.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FrmAddressView.resx"
+                    DependentUpon = "FrmAddressView.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "FrmIMMain.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FrmIMMain.resx"
+                    DependentUpon = "FrmIMMain.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "FrmMain.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FrmMain.resx"
+                    DependentUpon = "FrmMain.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "FrmMessages.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FrmMessages.resx"
+                    DependentUpon = "FrmMessages.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "FrmMessageView.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FrmMessageView.resx"
+                    DependentUpon = "FrmMessageView.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmNewMail.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmNewMail.resx"
+                    DependentUpon = "frmNewMail.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "FrmSend.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FrmSend.resx"
+                    DependentUpon = "FrmSend.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "FrmStatus.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "FrmStatus.resx"
+                    DependentUpon = "FrmStatus.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmWait.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmWait.resx"
+                    DependentUpon = "frmWait.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "Mailbox.ico"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Main.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "pennlogo.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "PopupBalloon.cs"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "PopupBalloon.resx"
+                    DependentUpon = "PopupBalloon.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "ScrollableDataGrid.cs"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ScrollableDataGrid.resx"
+                    DependentUpon = "ScrollableDataGrid.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "stamp-cancelled.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "stamp-orig.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

@@ -1,0 +1,28 @@
+To get recipients:
+
+private void btnAddrBook_Click(object sender, System.EventArgs e)
+{
+	FrmAddressBook f = new FrmAddressBook();
+	f.ShowDialog();
+	if (f.SelectedEmails != null) 
+	{
+		if (this.txtRecipient.Text.Length > 0) 
+		{
+			this.txtRecipient.Text += ", " + f.SelectedEmails;
+		}
+		else
+			this.txtRecipient.Text = f.SelectedEmails;
+	}
+	f.Dispose();
+}
+
+To add an entry:
+
+private void btnFromPull_Click(object sender, System.EventArgs e)
+{
+	AddressBook book = AddressBook.GetInstance();
+	AddressBookEntry b=new AddressBookEntry();
+	b.AddDate = DateTime.Now;
+	b.Email = this.txtFrom.Text;
+	book.AddEntry(b);
+}

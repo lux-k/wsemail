@@ -1,0 +1,243 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.0.9466"
+        SchemaVersion = "1.0"
+        ProjectGuid = "{972FA919-5BD1-4D58-9B09-5CF8BEE01EE6}"
+        SccProjectName = "SAK"
+        SccLocalPath = "SAK"
+        SccAuxPath = "SAK"
+        SccProvider = "SAK"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = "App.ico"
+                AssemblyKeyContainerName = ""
+                AssemblyName = "WSEMailClient"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "WinExe"
+                RootNamespace = "WSEMailClient"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.0.3705\System.dll"
+                />
+                <Reference
+                    Name = "System.Data"
+                    AssemblyName = "System.Data"
+                    HintPath = "..\..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.0.3705\System.Data.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.0.3705\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "..\..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.0.3705\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "System.XML"
+                    AssemblyName = "System.Xml"
+                    HintPath = "..\..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.0.3705\System.XML.dll"
+                />
+                <Reference
+                    Name = "WSEMailProxy"
+                    Project = "{07053853-0A6C-4A59-9E78-005FDD4FF186}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "Microsoft.Web.Services"
+                    AssemblyName = "Microsoft.Web.Services"
+                    HintPath = "..\..\..\..\..\..\Program Files\Microsoft WSE\v1.0.2312\Microsoft.Web.Services.dll"
+                />
+                <Reference
+                    Name = "System.Web.Services"
+                    AssemblyName = "System.Web.Services"
+                    HintPath = "..\..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.0.3705\System.Web.Services.dll"
+                />
+                <Reference
+                    Name = "System.Runtime.Remoting"
+                    AssemblyName = "System.Runtime.Remoting"
+                    HintPath = "..\..\..\..\..\..\WINNT\Microsoft.NET\Framework\v1.0.3705\System.Runtime.Remoting.dll"
+                />
+                <Reference
+                    Name = "DynamicForms"
+                    Project = "{A225D5AC-5531-4EB9-ACF5-EC1790D3E75F}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "EventQueue"
+                    Project = "{C5B27C8A-934A-46C4-AAE5-CAC1FE88AE96}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "FederatedBinaryToken"
+                    Project = "{7B9D02D1-7603-4FF1-B0AF-985F6AE0ABC9}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "DistributedAttachment"
+                    Project = "{ECBDD0DE-345F-44E4-A212-8896BB651259}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "DynamicBizObjects"
+                    Project = "{C46550E8-EB32-4367-A276-71BD5C9A104B}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+                <Reference
+                    Name = "PennLibraries"
+                    Project = "{B14642AB-3992-49D4-BCF8-247A44E34D84}"
+                    Package = "{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "app.config"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "App.ico"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmMain.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmMain.resx"
+                    DependentUpon = "frmMain.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmMessages.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmMessages.resx"
+                    DependentUpon = "frmMessages.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmMessageView.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmMessageView.resx"
+                    DependentUpon = "frmMessageView.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmSend.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmSend.resx"
+                    DependentUpon = "frmSend.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmStatus.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmStatus.resx"
+                    DependentUpon = "frmStatus.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "frmWait.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "frmWait.resx"
+                    DependentUpon = "frmWait.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "Global.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NewMail.cs"
+                    SubType = "Form"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "NewMail.resx"
+                    DependentUpon = "NewMail.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "stamp-cancelled.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "stamp-orig.gif"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+

@@ -1,0 +1,28 @@
+﻿<configuration>
+  <configSections>
+    <section name="microsoft.web.services" type="Microsoft.Web.Services.Configuration.WebServicesConfiguration, Microsoft.Web.Services, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <section name="SecurityTokens" type="TestAppLibs.SecurityTokensReader, TestAppLibs" />
+    <section name="Actions" type="TestAppLibs.ActionsReader, TestAppLibs" />
+    <section name="Messages" type="TestAppLibs.MessagesReader, TestAppLibs"/>
+  </configSections>
+  <appSettings>
+    <add key="MailServerDomain" value="wsemail.ws" />
+    <add key="MailServer" value="http://localhost/WSEmailServer/MailServer.asmx" />
+	<add key="SigningCertificate" value="CapricornKevin" />
+	<add key="Purchasing-Address" value="Purchasing@Capricorn" />
+	<add key="POs-Address" value="POs@Capricorn" />
+	<add key="DnsServer" value="blackwood.cis.upenn.edu" />
+	<add key="Threads" value="5" />
+	<add key="Cycles" value="2" />
+  </appSettings>
+  
+  <addedRecipients>
+		<recepient>nayanb@capricorn</recepient>
+		<recipient>kevin@capricorn</recipient>
+  </addedRecipients>
+  
+  <deletedrecipients>
+		<recipient>carl@capricorn</recipient>
+		<recipient>yoweiner@capricorn</recipient>
+  </deletedrecipients>
+</configuration>

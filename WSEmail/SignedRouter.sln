@@ -1,0 +1,509 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSEMailServer", "http://localhost/WSEMailServer/WSEMailServer.csproj", "{A91DB4D5-8076-4B03-902E-2A66E1AEA49F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSEMailProxy", "WSEMailProxy\WSEMailProxy.csproj", "{07053853-0A6C-4A59-9E78-005FDD4FF186}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSInstantMessagingLibraries", "WSInstantMessagingLibraries\WSInstantMessagingLibraries.csproj", "{4A7EE2DA-B695-45E0-A4B8-80F91484C1E5}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessObjectsService", "http://tower/BusinessObjectsService/BusinessObjectsService.csproj", "{21A5E84F-BE55-418B-A0A1-01C25D9E3568}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSSecureIMLib", "WSInstantMessagingServerCommunicator\WSSecureIMLib.csproj", "{FA6EFB97-8B1D-45F2-B7E8-6661FC9D6268}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSSMTPGatewayLib", "WSSMTPGatewayLib\WSSMTPGatewayLib.csproj", "{A97A9E66-E153-48F4-9927-4E785E682B44}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicForms", "DynamicForms\DynamicForms.csproj", "{A225D5AC-5531-4EB9-ACF5-EC1790D3E75F}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicBizObjects", "NewBusinessObjects\DynamicBizObjects.csproj", "{C46550E8-EB32-4367-A276-71BD5C9A104B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormDemo1", "FormDemo1\FormDemo1.csproj", "{A1F2BA09-512A-47FB-B25F-3DED42B45E2E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailServerInterfaces", "IServerPlugin\MailServerInterfaces.csproj", "{C1A13614-91A9-4B9D-8A8B-49EFF2E588F6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autoresponder", "Autoresponder\Autoresponder.csproj", "{7DFD516B-509B-4CB5-88D4-4FF675D9729C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BizObjectsPlugin", "BizObjectsPlugin\BizObjectsPlugin.csproj", "{5A6C5E90-F518-4120-94F9-9A90A3BD3DCC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSEmailConfigurator", "WSEmailConfigurator\WSEmailConfigurator.csproj", "{106FFFEE-A6CB-49F2-8AB0-CB35D7256B49}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WSEmail Server", "WebSetup1\WebSetup1.vdproj", "{0EF3117E-B519-4CAD-AC4F-C6E73BA332E3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WSEmail Client", "WSEmailClientSetup\WSEmailClientSetup.vdproj", "{87AC175E-C6CE-49BE-B99B-246B161A4841}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstallRootCA", "InstallRootCA\InstallRootCA.csproj", "{6C46B468-4D4C-4B57-9721-DE56B4419053}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNSResolver", "DNSResolver\DNSResolver.csproj", "{06D192B2-7BBB-482B-A099-E3977B162380}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnsResolverGUI", "DnsResolverGUI\DnsResolverGUI.csproj", "{CB1C86D1-527C-41D2-AA1F-64992CED6E19}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FederatedBinaryToken", "FederatedBinaryToken\FederatedBinaryToken.csproj", "{7B9D02D1-7603-4FF1-B0AF-985F6AE0ABC9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedAttachment", "DistributedAttachment\DistributedAttachment.csproj", "{ECBDD0DE-345F-44E4-A212-8896BB651259}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMProcessor", "IMProcessor\IMProcessor.csproj", "{1C4B9642-B799-4894-A7F8-BE1F2222C2EC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PennLibraries", "PennLibraries\PennLibraries.csproj", "{B14642AB-3992-49D4-BCF8-247A44E34D84}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSEmailClientv2", "WSEmailClientv2\WSEmailClientv2.csproj", "{211DA0DC-A11F-44E8-8330-FE8676A1FA2B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogInvestigator", "LogInvestigator\LogInvestigator.csproj", "{BD5A9D00-D65D-4ECB-B44A-FD37D6740F55}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSEmailErrorReporting", "http://tower/WSEmailErrorReporting/WSEmailErrorReporting.csproj", "{A909B815-AB01-4DCC-A3B9-A51F99E85B91}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSEmailClientConfig", "WSEmailClientConfig\WSEmailClientConfig.csproj", "{417EC8F3-16B1-4663-A2A9-D42451D6B8D6}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SysCon", "SysCon\SysCon.csproj", "{EB5BCB95-BD78-4B22-AE43-81F71209E476}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SysManCommon", "SysManCommon\SysManCommon.csproj", "{E8AE992E-B790-4FBA-8DB5-934162C9DEA9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstallServerCert", "InstallServerCert\InstallServerCert.csproj", "{78FC171E-8BF1-440A-A1B8-27333C13A636}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACLs", "ACLs\ACLs.csproj", "{4B75B399-FECC-497D-952E-3E00AB328C98}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.csproj", "{3C72670C-725E-40A5-8481-7DBDE5057DE7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAppLibs", "TestAppLibs\TestAppLibs.csproj", "{8F94EE7B-2D67-4712-8CD0-43024AF5C57E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestAppClient", "TestAppClient\TestAppClient.csproj", "{4FAF7D80-CA13-4F13-9A97-E9528E896E0E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XACLPolicy", "XACLPolicy\XACLPolicy.csproj", "{C8D49803-9364-4C4A-9C06-D090B212E0A7}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlAddressBook", "AddressBook\XmlAddressBook.csproj", "{A436F973-E759-4311-B730-BB402E71FABB}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSEmailServerPerfInstaller", "WSEmailServerPerfInstaller\WSEmailServerPerfInstaller.csproj", "{61C2C112-8FD5-4ABB-A1F6-3559DBC17A21}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webmail", "http://localhost/webmail/webmail.csproj", "{FD2AF96E-06E4-43FF-BEE9-803CB8F73793}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoutingTable", "RoutingTable\RoutingTable.csproj", "{1717A45A-C3FE-46C7-8171-4172CD8F69B9}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewIMTest", "NewIMTest\NewIMTest.csproj", "{A608963D-9DFE-4188-A5F1-6BA7E88C7A14}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoadGenerator", "LoadGenerator\LoadGenerator.csproj", "{1226F655-B2B3-4C09-8710-292649718A41}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Copyrighter", "Copyrighter\Copyrighter.csproj", "{E382D603-9E17-4F68-AB08-6877AB99A995}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 42
+		SccLocalPath0 = .
+		CanCheckoutShared = false
+		SolutionUniqueID = {1A70E5A6-E835-4AB3-8107-FB80E3E662A5}
+		SccProjectUniqueName1 = WSEMailProxy\\WSEMailProxy.csproj
+		SccLocalPath1 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection1 = WSEMailProxy\\
+		SccProjectUniqueName2 = WSInstantMessagingLibraries\\WSInstantMessagingLibraries.csproj
+		SccLocalPath2 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection2 = WSInstantMessagingLibraries\\
+		SccProjectUniqueName3 = WSInstantMessagingServerCommunicator\\WSSecureIMLib.csproj
+		SccLocalPath3 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection3 = WSInstantMessagingServerCommunicator\\
+		SccProjectUniqueName4 = WSSMTPGatewayLib\\WSSMTPGatewayLib.csproj
+		SccLocalPath4 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection4 = WSSMTPGatewayLib\\
+		SccProjectUniqueName5 = DynamicForms\\DynamicForms.csproj
+		SccLocalPath5 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection5 = DynamicForms\\
+		SccProjectUniqueName6 = NewBusinessObjects\\DynamicBizObjects.csproj
+		SccLocalPath6 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection6 = NewBusinessObjects\\
+		SccProjectUniqueName7 = FormDemo1\\FormDemo1.csproj
+		SccLocalPath7 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection7 = FormDemo1\\
+		SccProjectUniqueName8 = IServerPlugin\\MailServerInterfaces.csproj
+		SccLocalPath8 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection8 = IServerPlugin\\
+		SccProjectUniqueName9 = Autoresponder\\Autoresponder.csproj
+		SccLocalPath9 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection9 = Autoresponder\\
+		SccProjectUniqueName10 = BizObjectsPlugin\\BizObjectsPlugin.csproj
+		SccLocalPath10 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection10 = BizObjectsPlugin\\
+		SccProjectUniqueName11 = WSEmailConfigurator\\WSEmailConfigurator.csproj
+		SccLocalPath11 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection11 = WSEmailConfigurator\\
+		SccProjectUniqueName12 = WebSetup1\\WebSetup1.vdproj
+		SccLocalPath12 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection12 = WebSetup1\\
+		SccProjectUniqueName13 = InstallRootCA\\InstallRootCA.csproj
+		SccLocalPath13 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection13 = InstallRootCA\\
+		SccProjectUniqueName14 = WSEmailClientSetup\\WSEmailClientSetup.vdproj
+		SccLocalPath14 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection14 = WSEmailClientSetup\\
+		SccProjectUniqueName15 = DNSResolver\\DNSResolver.csproj
+		SccLocalPath15 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection15 = DNSResolver\\
+		SccProjectUniqueName16 = DnsResolverGUI\\DnsResolverGUI.csproj
+		SccLocalPath16 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection16 = DnsResolverGUI\\
+		SccProjectUniqueName17 = FederatedBinaryToken\\FederatedBinaryToken.csproj
+		SccLocalPath17 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection17 = FederatedBinaryToken\\
+		SccProjectUniqueName18 = DistributedAttachment\\DistributedAttachment.csproj
+		SccLocalPath18 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection18 = DistributedAttachment\\
+		SccProjectUniqueName19 = IMProcessor\\IMProcessor.csproj
+		SccLocalPath19 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection19 = IMProcessor\\
+		SccProjectUniqueName20 = PennLibraries\\PennLibraries.csproj
+		SccLocalPath20 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection20 = PennLibraries\\
+		SccProjectUniqueName21 = WSEmailClientv2\\WSEmailClientv2.csproj
+		SccLocalPath21 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection21 = WSEmailClientv2\\
+		SccProjectUniqueName22 = LogInvestigator\\LogInvestigator.csproj
+		SccLocalPath22 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection22 = LogInvestigator\\
+		SccProjectUniqueName23 = WSEmailClientConfig\\WSEmailClientConfig.csproj
+		SccLocalPath23 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection23 = WSEmailClientConfig\\
+		SccProjectUniqueName24 = SysCon\\SysCon.csproj
+		SccLocalPath24 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection24 = SysCon\\
+		SccProjectUniqueName25 = SysManCommon\\SysManCommon.csproj
+		SccLocalPath25 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection25 = SysManCommon\\
+		SccProjectUniqueName26 = InstallServerCert\\InstallServerCert.csproj
+		SccLocalPath26 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection26 = InstallServerCert\\
+		SccProjectUniqueName27 = ACLs\\ACLs.csproj
+		SccLocalPath27 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection27 = ACLs\\
+		SccProjectUniqueName28 = TestApp\\TestApp.csproj
+		SccLocalPath28 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection28 = TestApp\\
+		SccProjectUniqueName29 = http://tower/BusinessObjectsService/BusinessObjectsService.csproj
+		SccProjectName29 = \u0022$/BusinessObjectsService\u0022,\u0020YAAAAAAA
+		SccLocalPath29 = http://tower/BusinessObjectsService/
+		CanCheckoutShared = false
+		SccProjectEnlistmentChoice29 = 2
+		SccProjectUniqueName30 = http://localhost/WSEMailServer/WSEMailServer.csproj
+		SccProjectName30 = \u0022$/WSEMailServer\u0022,\u0020CBAAAAAA
+		SccLocalPath30 = http://localhost/WSEMailServer/
+		CanCheckoutShared = false
+		SccProjectEnlistmentChoice30 = 2
+		SccProjectUniqueName31 = http://tower/WSEmailErrorReporting/WSEmailErrorReporting.csproj
+		SccProjectName31 = \u0022$/WSEmailErrorReporting\u0022,\u0020NLBAAAAA
+		SccLocalPath31 = http://tower/WSEmailErrorReporting/
+		CanCheckoutShared = false
+		SccProjectEnlistmentChoice31 = 2
+		SccProjectUniqueName32 = TestAppClient\\TestAppClient.csproj
+		SccLocalPath32 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection32 = TestAppClient\\
+		SccProjectUniqueName33 = TestAppLibs\\TestAppLibs.csproj
+		SccLocalPath33 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection33 = TestAppLibs\\
+		SccProjectUniqueName34 = XACLPolicy\\XACLPolicy.csproj
+		SccLocalPath34 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection34 = XACLPolicy\\
+		SccProjectUniqueName35 = AddressBook\\XmlAddressBook.csproj
+		SccLocalPath35 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection35 = AddressBook\\
+		SccProjectUniqueName36 = WSEmailServerPerfInstaller\\WSEmailServerPerfInstaller.csproj
+		SccLocalPath36 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection36 = WSEmailServerPerfInstaller\\
+		SccProjectUniqueName37 = RoutingTable\\RoutingTable.csproj
+		SccProjectName37 = \u0022$/WSEmail/RoutingTable\u0022,\u0020KAAAAAAA
+		SccLocalPath37 = RoutingTable
+		CanCheckoutShared = false
+		SccProjectUniqueName38 = http://localhost/webmail/webmail.csproj
+		SccProjectName38 = \u0022$/webmail\u0022,\u0020RWBAAAAA
+		SccLocalPath38 = ..\\..\\..\\..\\..\\inetpub\\wwwroot\\webmail
+		CanCheckoutShared = false
+		SccProjectEnlistmentChoice38 = 2
+		SccProjectUniqueName39 = LoadGenerator\\LoadGenerator.csproj
+		SccLocalPath39 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection39 = LoadGenerator\\
+		SccProjectUniqueName40 = NewIMTest\\NewIMTest.csproj
+		SccLocalPath40 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection40 = NewIMTest\\
+		SccProjectUniqueName41 = Copyrighter\\Copyrighter.csproj
+		SccLocalPath41 = .
+		CanCheckoutShared = false
+		SccProjectFilePathRelativizedFromConnection41 = Copyrighter\\
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{A91DB4D5-8076-4B03-902E-2A66E1AEA49F}.Debug.ActiveCfg = Debug|.NET
+		{A91DB4D5-8076-4B03-902E-2A66E1AEA49F}.Debug.Build.0 = Debug|.NET
+		{A91DB4D5-8076-4B03-902E-2A66E1AEA49F}.Release.ActiveCfg = Release|.NET
+		{A91DB4D5-8076-4B03-902E-2A66E1AEA49F}.Release.Build.0 = Release|.NET
+		{07053853-0A6C-4A59-9E78-005FDD4FF186}.Debug.ActiveCfg = Debug|.NET
+		{07053853-0A6C-4A59-9E78-005FDD4FF186}.Debug.Build.0 = Debug|.NET
+		{07053853-0A6C-4A59-9E78-005FDD4FF186}.Release.ActiveCfg = Release|.NET
+		{07053853-0A6C-4A59-9E78-005FDD4FF186}.Release.Build.0 = Release|.NET
+		{4A7EE2DA-B695-45E0-A4B8-80F91484C1E5}.Debug.ActiveCfg = Debug|.NET
+		{4A7EE2DA-B695-45E0-A4B8-80F91484C1E5}.Debug.Build.0 = Debug|.NET
+		{4A7EE2DA-B695-45E0-A4B8-80F91484C1E5}.Release.ActiveCfg = Release|.NET
+		{4A7EE2DA-B695-45E0-A4B8-80F91484C1E5}.Release.Build.0 = Release|.NET
+		{21A5E84F-BE55-418B-A0A1-01C25D9E3568}.Debug.ActiveCfg = Debug|.NET
+		{21A5E84F-BE55-418B-A0A1-01C25D9E3568}.Debug.Build.0 = Debug|.NET
+		{21A5E84F-BE55-418B-A0A1-01C25D9E3568}.Release.ActiveCfg = Release|.NET
+		{21A5E84F-BE55-418B-A0A1-01C25D9E3568}.Release.Build.0 = Release|.NET
+		{FA6EFB97-8B1D-45F2-B7E8-6661FC9D6268}.Debug.ActiveCfg = Debug|.NET
+		{FA6EFB97-8B1D-45F2-B7E8-6661FC9D6268}.Debug.Build.0 = Debug|.NET
+		{FA6EFB97-8B1D-45F2-B7E8-6661FC9D6268}.Release.ActiveCfg = Release|.NET
+		{FA6EFB97-8B1D-45F2-B7E8-6661FC9D6268}.Release.Build.0 = Release|.NET
+		{A97A9E66-E153-48F4-9927-4E785E682B44}.Debug.ActiveCfg = Debug|.NET
+		{A97A9E66-E153-48F4-9927-4E785E682B44}.Debug.Build.0 = Debug|.NET
+		{A97A9E66-E153-48F4-9927-4E785E682B44}.Release.ActiveCfg = Release|.NET
+		{A97A9E66-E153-48F4-9927-4E785E682B44}.Release.Build.0 = Release|.NET
+		{A225D5AC-5531-4EB9-ACF5-EC1790D3E75F}.Debug.ActiveCfg = Debug|.NET
+		{A225D5AC-5531-4EB9-ACF5-EC1790D3E75F}.Debug.Build.0 = Debug|.NET
+		{A225D5AC-5531-4EB9-ACF5-EC1790D3E75F}.Release.ActiveCfg = Release|.NET
+		{A225D5AC-5531-4EB9-ACF5-EC1790D3E75F}.Release.Build.0 = Release|.NET
+		{C46550E8-EB32-4367-A276-71BD5C9A104B}.Debug.ActiveCfg = Debug|.NET
+		{C46550E8-EB32-4367-A276-71BD5C9A104B}.Debug.Build.0 = Debug|.NET
+		{C46550E8-EB32-4367-A276-71BD5C9A104B}.Release.ActiveCfg = Release|.NET
+		{C46550E8-EB32-4367-A276-71BD5C9A104B}.Release.Build.0 = Release|.NET
+		{A1F2BA09-512A-47FB-B25F-3DED42B45E2E}.Debug.ActiveCfg = Debug|.NET
+		{A1F2BA09-512A-47FB-B25F-3DED42B45E2E}.Debug.Build.0 = Debug|.NET
+		{A1F2BA09-512A-47FB-B25F-3DED42B45E2E}.Release.ActiveCfg = Release|.NET
+		{A1F2BA09-512A-47FB-B25F-3DED42B45E2E}.Release.Build.0 = Release|.NET
+		{C1A13614-91A9-4B9D-8A8B-49EFF2E588F6}.Debug.ActiveCfg = Debug|.NET
+		{C1A13614-91A9-4B9D-8A8B-49EFF2E588F6}.Debug.Build.0 = Debug|.NET
+		{C1A13614-91A9-4B9D-8A8B-49EFF2E588F6}.Release.ActiveCfg = Release|.NET
+		{C1A13614-91A9-4B9D-8A8B-49EFF2E588F6}.Release.Build.0 = Release|.NET
+		{7DFD516B-509B-4CB5-88D4-4FF675D9729C}.Debug.ActiveCfg = Debug|.NET
+		{7DFD516B-509B-4CB5-88D4-4FF675D9729C}.Debug.Build.0 = Debug|.NET
+		{7DFD516B-509B-4CB5-88D4-4FF675D9729C}.Release.ActiveCfg = Release|.NET
+		{7DFD516B-509B-4CB5-88D4-4FF675D9729C}.Release.Build.0 = Release|.NET
+		{5A6C5E90-F518-4120-94F9-9A90A3BD3DCC}.Debug.ActiveCfg = Debug|.NET
+		{5A6C5E90-F518-4120-94F9-9A90A3BD3DCC}.Debug.Build.0 = Debug|.NET
+		{5A6C5E90-F518-4120-94F9-9A90A3BD3DCC}.Release.ActiveCfg = Release|.NET
+		{5A6C5E90-F518-4120-94F9-9A90A3BD3DCC}.Release.Build.0 = Release|.NET
+		{106FFFEE-A6CB-49F2-8AB0-CB35D7256B49}.Debug.ActiveCfg = Debug|.NET
+		{106FFFEE-A6CB-49F2-8AB0-CB35D7256B49}.Debug.Build.0 = Debug|.NET
+		{106FFFEE-A6CB-49F2-8AB0-CB35D7256B49}.Release.ActiveCfg = Release|.NET
+		{106FFFEE-A6CB-49F2-8AB0-CB35D7256B49}.Release.Build.0 = Release|.NET
+		{0EF3117E-B519-4CAD-AC4F-C6E73BA332E3}.Debug.ActiveCfg = Debug
+		{0EF3117E-B519-4CAD-AC4F-C6E73BA332E3}.Release.ActiveCfg = Release
+		{87AC175E-C6CE-49BE-B99B-246B161A4841}.Debug.ActiveCfg = Debug
+		{87AC175E-C6CE-49BE-B99B-246B161A4841}.Release.ActiveCfg = Release
+		{6C46B468-4D4C-4B57-9721-DE56B4419053}.Debug.ActiveCfg = Debug|.NET
+		{6C46B468-4D4C-4B57-9721-DE56B4419053}.Debug.Build.0 = Debug|.NET
+		{6C46B468-4D4C-4B57-9721-DE56B4419053}.Release.ActiveCfg = Release|.NET
+		{6C46B468-4D4C-4B57-9721-DE56B4419053}.Release.Build.0 = Release|.NET
+		{06D192B2-7BBB-482B-A099-E3977B162380}.Debug.ActiveCfg = Debug|.NET
+		{06D192B2-7BBB-482B-A099-E3977B162380}.Debug.Build.0 = Debug|.NET
+		{06D192B2-7BBB-482B-A099-E3977B162380}.Release.ActiveCfg = Release|.NET
+		{06D192B2-7BBB-482B-A099-E3977B162380}.Release.Build.0 = Release|.NET
+		{CB1C86D1-527C-41D2-AA1F-64992CED6E19}.Debug.ActiveCfg = Debug|.NET
+		{CB1C86D1-527C-41D2-AA1F-64992CED6E19}.Debug.Build.0 = Debug|.NET
+		{CB1C86D1-527C-41D2-AA1F-64992CED6E19}.Release.ActiveCfg = Release|.NET
+		{CB1C86D1-527C-41D2-AA1F-64992CED6E19}.Release.Build.0 = Release|.NET
+		{7B9D02D1-7603-4FF1-B0AF-985F6AE0ABC9}.Debug.ActiveCfg = Debug|.NET
+		{7B9D02D1-7603-4FF1-B0AF-985F6AE0ABC9}.Debug.Build.0 = Debug|.NET
+		{7B9D02D1-7603-4FF1-B0AF-985F6AE0ABC9}.Release.ActiveCfg = Release|.NET
+		{7B9D02D1-7603-4FF1-B0AF-985F6AE0ABC9}.Release.Build.0 = Release|.NET
+		{ECBDD0DE-345F-44E4-A212-8896BB651259}.Debug.ActiveCfg = Debug|.NET
+		{ECBDD0DE-345F-44E4-A212-8896BB651259}.Debug.Build.0 = Debug|.NET
+		{ECBDD0DE-345F-44E4-A212-8896BB651259}.Release.ActiveCfg = Release|.NET
+		{ECBDD0DE-345F-44E4-A212-8896BB651259}.Release.Build.0 = Release|.NET
+		{1C4B9642-B799-4894-A7F8-BE1F2222C2EC}.Debug.ActiveCfg = Debug|.NET
+		{1C4B9642-B799-4894-A7F8-BE1F2222C2EC}.Debug.Build.0 = Debug|.NET
+		{1C4B9642-B799-4894-A7F8-BE1F2222C2EC}.Release.ActiveCfg = Release|.NET
+		{1C4B9642-B799-4894-A7F8-BE1F2222C2EC}.Release.Build.0 = Release|.NET
+		{B14642AB-3992-49D4-BCF8-247A44E34D84}.Debug.ActiveCfg = Debug|.NET
+		{B14642AB-3992-49D4-BCF8-247A44E34D84}.Debug.Build.0 = Debug|.NET
+		{B14642AB-3992-49D4-BCF8-247A44E34D84}.Release.ActiveCfg = Release|.NET
+		{B14642AB-3992-49D4-BCF8-247A44E34D84}.Release.Build.0 = Release|.NET
+		{211DA0DC-A11F-44E8-8330-FE8676A1FA2B}.Debug.ActiveCfg = Debug|.NET
+		{211DA0DC-A11F-44E8-8330-FE8676A1FA2B}.Debug.Build.0 = Debug|.NET
+		{211DA0DC-A11F-44E8-8330-FE8676A1FA2B}.Release.ActiveCfg = Release|.NET
+		{211DA0DC-A11F-44E8-8330-FE8676A1FA2B}.Release.Build.0 = Release|.NET
+		{BD5A9D00-D65D-4ECB-B44A-FD37D6740F55}.Debug.ActiveCfg = Debug|.NET
+		{BD5A9D00-D65D-4ECB-B44A-FD37D6740F55}.Debug.Build.0 = Debug|.NET
+		{BD5A9D00-D65D-4ECB-B44A-FD37D6740F55}.Release.ActiveCfg = Release|.NET
+		{BD5A9D00-D65D-4ECB-B44A-FD37D6740F55}.Release.Build.0 = Release|.NET
+		{A909B815-AB01-4DCC-A3B9-A51F99E85B91}.Debug.ActiveCfg = Debug|.NET
+		{A909B815-AB01-4DCC-A3B9-A51F99E85B91}.Debug.Build.0 = Debug|.NET
+		{A909B815-AB01-4DCC-A3B9-A51F99E85B91}.Release.ActiveCfg = Release|.NET
+		{A909B815-AB01-4DCC-A3B9-A51F99E85B91}.Release.Build.0 = Release|.NET
+		{417EC8F3-16B1-4663-A2A9-D42451D6B8D6}.Debug.ActiveCfg = Debug|.NET
+		{417EC8F3-16B1-4663-A2A9-D42451D6B8D6}.Debug.Build.0 = Debug|.NET
+		{417EC8F3-16B1-4663-A2A9-D42451D6B8D6}.Release.ActiveCfg = Release|.NET
+		{417EC8F3-16B1-4663-A2A9-D42451D6B8D6}.Release.Build.0 = Release|.NET
+		{EB5BCB95-BD78-4B22-AE43-81F71209E476}.Debug.ActiveCfg = Debug|.NET
+		{EB5BCB95-BD78-4B22-AE43-81F71209E476}.Debug.Build.0 = Debug|.NET
+		{EB5BCB95-BD78-4B22-AE43-81F71209E476}.Release.ActiveCfg = Release|.NET
+		{EB5BCB95-BD78-4B22-AE43-81F71209E476}.Release.Build.0 = Release|.NET
+		{E8AE992E-B790-4FBA-8DB5-934162C9DEA9}.Debug.ActiveCfg = Debug|.NET
+		{E8AE992E-B790-4FBA-8DB5-934162C9DEA9}.Debug.Build.0 = Debug|.NET
+		{E8AE992E-B790-4FBA-8DB5-934162C9DEA9}.Release.ActiveCfg = Release|.NET
+		{E8AE992E-B790-4FBA-8DB5-934162C9DEA9}.Release.Build.0 = Release|.NET
+		{78FC171E-8BF1-440A-A1B8-27333C13A636}.Debug.ActiveCfg = Debug|.NET
+		{78FC171E-8BF1-440A-A1B8-27333C13A636}.Debug.Build.0 = Debug|.NET
+		{78FC171E-8BF1-440A-A1B8-27333C13A636}.Release.ActiveCfg = Release|.NET
+		{78FC171E-8BF1-440A-A1B8-27333C13A636}.Release.Build.0 = Release|.NET
+		{4B75B399-FECC-497D-952E-3E00AB328C98}.Debug.ActiveCfg = Debug|.NET
+		{4B75B399-FECC-497D-952E-3E00AB328C98}.Debug.Build.0 = Debug|.NET
+		{4B75B399-FECC-497D-952E-3E00AB328C98}.Release.ActiveCfg = Release|.NET
+		{4B75B399-FECC-497D-952E-3E00AB328C98}.Release.Build.0 = Release|.NET
+		{3C72670C-725E-40A5-8481-7DBDE5057DE7}.Debug.ActiveCfg = Debug|.NET
+		{3C72670C-725E-40A5-8481-7DBDE5057DE7}.Release.ActiveCfg = Release|.NET
+		{3C72670C-725E-40A5-8481-7DBDE5057DE7}.Release.Build.0 = Release|.NET
+		{8F94EE7B-2D67-4712-8CD0-43024AF5C57E}.Debug.ActiveCfg = Debug|.NET
+		{8F94EE7B-2D67-4712-8CD0-43024AF5C57E}.Debug.Build.0 = Debug|.NET
+		{8F94EE7B-2D67-4712-8CD0-43024AF5C57E}.Release.ActiveCfg = Release|.NET
+		{8F94EE7B-2D67-4712-8CD0-43024AF5C57E}.Release.Build.0 = Release|.NET
+		{4FAF7D80-CA13-4F13-9A97-E9528E896E0E}.Debug.ActiveCfg = Debug|.NET
+		{4FAF7D80-CA13-4F13-9A97-E9528E896E0E}.Debug.Build.0 = Debug|.NET
+		{4FAF7D80-CA13-4F13-9A97-E9528E896E0E}.Release.ActiveCfg = Release|.NET
+		{4FAF7D80-CA13-4F13-9A97-E9528E896E0E}.Release.Build.0 = Release|.NET
+		{C8D49803-9364-4C4A-9C06-D090B212E0A7}.Debug.ActiveCfg = Debug|.NET
+		{C8D49803-9364-4C4A-9C06-D090B212E0A7}.Debug.Build.0 = Debug|.NET
+		{C8D49803-9364-4C4A-9C06-D090B212E0A7}.Release.ActiveCfg = Release|.NET
+		{A436F973-E759-4311-B730-BB402E71FABB}.Debug.ActiveCfg = Debug|.NET
+		{A436F973-E759-4311-B730-BB402E71FABB}.Debug.Build.0 = Debug|.NET
+		{A436F973-E759-4311-B730-BB402E71FABB}.Release.ActiveCfg = Release|.NET
+		{A436F973-E759-4311-B730-BB402E71FABB}.Release.Build.0 = Release|.NET
+		{61C2C112-8FD5-4ABB-A1F6-3559DBC17A21}.Debug.ActiveCfg = Debug|.NET
+		{61C2C112-8FD5-4ABB-A1F6-3559DBC17A21}.Debug.Build.0 = Debug|.NET
+		{61C2C112-8FD5-4ABB-A1F6-3559DBC17A21}.Release.ActiveCfg = Release|.NET
+		{61C2C112-8FD5-4ABB-A1F6-3559DBC17A21}.Release.Build.0 = Release|.NET
+		{FD2AF96E-06E4-43FF-BEE9-803CB8F73793}.Debug.ActiveCfg = Debug|.NET
+		{FD2AF96E-06E4-43FF-BEE9-803CB8F73793}.Debug.Build.0 = Debug|.NET
+		{FD2AF96E-06E4-43FF-BEE9-803CB8F73793}.Release.ActiveCfg = Release|.NET
+		{FD2AF96E-06E4-43FF-BEE9-803CB8F73793}.Release.Build.0 = Release|.NET
+		{1717A45A-C3FE-46C7-8171-4172CD8F69B9}.Debug.ActiveCfg = Debug|.NET
+		{1717A45A-C3FE-46C7-8171-4172CD8F69B9}.Debug.Build.0 = Debug|.NET
+		{1717A45A-C3FE-46C7-8171-4172CD8F69B9}.Release.ActiveCfg = Release|.NET
+		{1717A45A-C3FE-46C7-8171-4172CD8F69B9}.Release.Build.0 = Release|.NET
+		{A608963D-9DFE-4188-A5F1-6BA7E88C7A14}.Debug.ActiveCfg = Debug|.NET
+		{A608963D-9DFE-4188-A5F1-6BA7E88C7A14}.Debug.Build.0 = Debug|.NET
+		{A608963D-9DFE-4188-A5F1-6BA7E88C7A14}.Release.ActiveCfg = Release|.NET
+		{A608963D-9DFE-4188-A5F1-6BA7E88C7A14}.Release.Build.0 = Release|.NET
+		{1226F655-B2B3-4C09-8710-292649718A41}.Debug.ActiveCfg = Debug|.NET
+		{1226F655-B2B3-4C09-8710-292649718A41}.Debug.Build.0 = Debug|.NET
+		{1226F655-B2B3-4C09-8710-292649718A41}.Release.ActiveCfg = Release|.NET
+		{1226F655-B2B3-4C09-8710-292649718A41}.Release.Build.0 = Release|.NET
+		{E382D603-9E17-4F68-AB08-6877AB99A995}.Debug.ActiveCfg = Debug|.NET
+		{E382D603-9E17-4F68-AB08-6877AB99A995}.Debug.Build.0 = Debug|.NET
+		{E382D603-9E17-4F68-AB08-6877AB99A995}.Release.ActiveCfg = Release|.NET
+		{E382D603-9E17-4F68-AB08-6877AB99A995}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>WSEmailServer ReadMe</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+<h1>Installation Steps</h1>
+<ol>
+  <li>Choose a name for your server. This name will be needed to obtain a certificate 
+    for your server.</li>
+  <li>Obtain a certificate for your server. This step will vary depending upon 
+    what kind of CA infrastructure you choose to use. The following are two important 
+    items to note while creating your certificate.</li>
+  <ul>
+    <li>The CN must be the name of your server.</li>
+    <li>The email address of the certificate must be postmaster@server.</li>
+  </ul>
+  <li>Run the certificate tool from the Program Group. You may choose to install 
+    the Penn Security Lab root, if you plan to communicate with our servers. The 
+    important button to use is the "Install Server Cert" button, which will install 
+    the certificate you created in step 2 in the correct place and set the permissions 
+    on the key correctly. The recommended format for loading the cert is a PKCS12 
+    (pfx) bundle, with or without a password.</li>
+  <li>After you have completed the certificate setup, run the Configurator to 
+    setup the configuration file the server will use to start. The on-screen instructions 
+    should guide you through setting up the database server, picking a name, etc.</li>
+  <li>Test that the server is correctly setup. You can do this by going to <a href="http://localhost/WSEmailServer/">http://localhost/WSEmailServer/</a>. 
+    At the bottom of the page, a message will appear in either red of green informing 
+    you of the status of the server.</li>
+</ol>
+
+<p>&nbsp;</p>
+</body>
+</html>

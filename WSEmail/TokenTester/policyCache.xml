@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<policyDocument xmlns="http://schemas.microsoft.com/wse/2003/06/Policy">
+  <mappings xmlns:wse="http://schemas.microsoft.com/wse/2003/06/Policy">
+    <map to="http://tower.cis.upenn.edu/TokenIssuer/Issuer.ashx">
+      <default policy="#policy-50e169eb-9cbd-4b85-a066-75addb792760" />
+    </map>
+  </mappings>
+  <policies xmlns:wsu="http://schemas.xmlsoap.org/ws/2002/07/utility">
+    <wsp:Policy wsu:Id="policy-50e169eb-9cbd-4b85-a066-75addb792760" xmlns:wsp="http://schemas.xmlsoap.org/ws/2002/12/policy">
+      <wsse:Integrity wsp:Usage="wsp:Required" xmlns:wsse="http://schemas.xmlsoap.org/ws/2002/12/secext">
+        <wsse:TokenInfo>
+          <SecurityToken xmlns="http://schemas.xmlsoap.org/ws/2002/12/secext">
+            <wsse:TokenType>wsse:X509v3</wsse:TokenType>
+          </SecurityToken>
+        </wsse:TokenInfo>
+        <wsse:MessageParts Dialect="http://schemas.xmlsoap.org/2002/12/wsse#part">wsp:Body()</wsse:MessageParts>
+      </wsse:Integrity>
+    </wsp:Policy>
+  </policies>
+</policyDocument>
